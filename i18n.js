@@ -22,7 +22,7 @@ i18n
           pillar2_subtitle: "Datos clasificados en su escala correcta aseguran la validación y el contexto.",
           pillar3_title: "Lo esencial, finalmente visible",
           pillar3_subtitle: "Nitidez, sentido y confianza. El portal que preparamos va en esa dirección.",
-          pillar4_title: "Visión Estrategica",
+          pillar4_title: "Claridad en Contexto",
           pillar4_subtitle: "Integramos el análisis de eventos y la validación normativa para que operes con seguridad y en pleno cumplimiento.",
          cta_discover: "Iniciemos una convesación",
          cta_contact: "Contacto"
@@ -38,7 +38,7 @@ translation: {
   pillar2_subtitle: "Data, classified at the right scale, ensures validation and context.",
   pillar3_title: "The essential, finally visible",
   pillar3_subtitle: "Clarity, meaning, and confidence. The portal we are preparing heads in that direction.",
-  pillar4_title: "Strategic Vision.",
+  pillar4_title: "Clarity in Context.",
   pillar4_subtitle: "We integrate event analysis and regulatory validation so you can operate securely and in full compliance.",
   cta_discover: "Let's start a conversation",
   cta_contact: "Contact"
@@ -48,6 +48,7 @@ translation: {
   });
 
 export default i18n;
+
 
 
 
