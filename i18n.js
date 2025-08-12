@@ -17,8 +17,8 @@ i18n
           page_status: "Puesta a Punto del Portal",
           attribution_by: "Por",
           pillar1_title: "El Valor de la Visibilidad",
-          pillar1_subtitle: "El ruido se desvanece, revelando lo esencial. LexTrace unifica la información clave a través de un marco de referencia temporal, transformando el conocimiento disperso en una fuente de confianza.",
-          pillar2_title: "Lo complejo se vuelve simple",
+          pillar1_subtitle: "LexTrace unifica la información clave a través de un marco de referencia temporal, transformando el conocimiento disperso en una fuente de confianza.",
+          pillar2_title: "Es simple",
           pillar2_subtitle: "Datos clasificados en su escala correcta aseguran la validación y el contexto.",
           pillar3_title: "Lo esencial, finalmente visible",
           pillar3_subtitle: "Nitidez, sentido y confianza. El portal que preparamos va en esa dirección.",
@@ -32,8 +32,8 @@ translation: {
   page_status: "Portal Tuning",
   attribution_by: "By",
   pillar1_title: "The Value of Visibility",
-  pillar1_subtitle: "The noise fades away, revealing the essential. LexTrace unifies key information within a temporal framework, transforming dispersed knowledge into a trusted source.",
-  pillar2_title: "The complex becomes simple",
+  pillar1_subtitle: "LexTrace unifies key information within a temporal framework, transforming dispersed knowledge into a trusted source.",
+  pillar2_title: "It's simple",
   pillar2_subtitle: "Data, classified at the right scale, ensures validation and context.",
   pillar3_title: "The essential, finally visible",
   pillar3_subtitle: "Clarity, meaning, and confidence. The portal we are preparing heads in that direction.",
@@ -46,5 +46,6 @@ translation: {
   });
 
 export default i18n;
+
 
 
