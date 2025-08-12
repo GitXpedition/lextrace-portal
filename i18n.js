@@ -24,7 +24,8 @@ i18n
           pillar3_subtitle: "Nitidez, sentido y confianza. El portal que preparamos va en esa dirección.",
           pillar4_title: "Estamos construyendo un servico simple y efectivo.",
           pillar4_subtitle: "Muy pronto nuestro explorador de eventos va a facilitar el despliegue de certezas.",
-         cta_discover: "Iniciemos una convesación"
+         cta_discover: "Iniciemos una convesación",
+         cta_contact: "Contacto"
         }
       },
       en: {
@@ -39,13 +40,15 @@ translation: {
   pillar3_subtitle: "Clarity, meaning, and confidence. The portal we are preparing heads in that direction.",
   pillar4_title: "We are building a simple and effective service.",
   pillar4_subtitle: "Soon, our event explorer will enable the deployment of certainties.",
-  cta_discover: "Let's start a conversation"
+  cta_discover: "Let's start a conversation",
+  cta_contact: "Contact"
 }
       }
     }
   });
 
 export default i18n;
+
 
 
 
