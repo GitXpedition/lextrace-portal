@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-/* SE HA MODIFICADO ESTA SECCIÓN */
-.dark {
-  --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
-}
-/* FIN DE LA MODIFICACIÓN (se reemplazó @media) */
-
+/* ESTILOS PARA MODO CLARO (si alguna vez se quita la clase .dark) */
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(0, 0, 0);
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(255, 255, 255)
     )
-    rgb(var(--background-start-rgb));
+    rgb(214, 219, 220);
+}
+
+/* ESTILOS FORZADOS PARA MODO OSCURO */
+.dark body {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0); /* Fondo negro base, los efectos de la página van encima */
 }
