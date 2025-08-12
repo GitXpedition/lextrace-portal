@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'LexTrace',
-  description: 'Legal complexity, simplified',
+  title: 'LexTrace | The Certainty Framework',
+  description: 'LexTrace structures your critical data to provide clarity for your decisions.',
 };
 
 export default function RootLayout({
