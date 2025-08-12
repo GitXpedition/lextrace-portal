@@ -1,21 +1,23 @@
-import type { Config } from 'tailwindcss';
+import './globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
-const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  darkMode: 'class', // <--- SE AÑADIÓ ESTA LÍNEA
-  theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
-  },
-  plugins: [],
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'LexTrace | The Certainty Framework',
+  description: 'LexTrace structures your critical data to provide clarity for your decisions.',
 };
-export default config;
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    // SE AÑADIÓ className="dark" A LA ETIQUETA <html>
+    <html lang="en" className="dark"> 
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
